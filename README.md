@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# 🧳 Smart Travel Itinerary Generator
 
-## Project info
+## 🌍 Overview
+Smart Travel Itinerary Generator is a lightweight web app designed for budget-conscious travelers.  
+It helps users plan their trip by generating a **day-wise travel itinerary** based on city, duration, budget, and interests.  
 
-**URL**: https://lovable.dev/projects/07d2b922-5215-4d50-b994-33892847679a
+👉 Live Demo: [Smart Travel Itinerary](https://quick-backpakr.lovable.app/)  
+👉 GitHub Repo: *(add your repo link here once pushed)*
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features (MVP)
+- Input form where users enter:
+  - City
+  - Number of days
+  - Budget
+  - Interests (e.g., heritage, food, adventure)
+- Instant itinerary generation using mock JSON (predefined data for demo).
+- Each day shows:
+  - Morning/Afternoon/Evening activities
+  - Estimated cost and time
+  - Notes/tips (e.g., “Best before noon”).
+- Download itinerary as PDF or shareable link.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07d2b922-5215-4d50-b994-33892847679a) and start prompting.
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend (optional extension)**: Node.js / Flask  
+- **APIs**: Mock JSON (future scope: OpenAI API for AI-generated itineraries)  
+- **Deployment**: [Lovable](https://lovable.dev/)  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📂 Project Structure
+/smart-travel-itinerary
+│── index.html # main UI
+│── style.css # styling
+│── app.js # logic + API calls
+│── mock-data.json # sample itinerary data
+│── README.md
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+yaml
+Copy code
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 How to Run Locally
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/smart-travel-itinerary.git
+   cd smart-travel-itinerary
+Open index.html in your browser.
+(If using Node.js/Flask, run server with npm start or python app.py)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+📌 Future Scope
+AI-based personalized itineraries using OpenAI API / Gemini API.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Real-time hotel, transport & booking integrations.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Multi-user sharing and collaboration.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/07d2b922-5215-4d50-b994-33892847679a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📜 License
+This project is open-source and available under the MIT License.
